@@ -70,7 +70,7 @@ function runPythonPredection() {
 
 		const pyFile = `${__dirname}/ml.py`;
 
-		exec(`python ${pyFile}`, function(err, stdout, stderr) {
+		exec(`python3 ${pyFile}`, function(err, stdout, stderr) {
 
 			if (err)
 				return reject(err);
