@@ -1,0 +1,16 @@
+
+# node modules
+/api/node_modules
+/ui/node_modules
+/app/node_modules
+
+# cordova
+/app/platforms
+/app/plugins
+
+# package-lock json
+/api/package-lock.json
+
+# models
+/api/ml/test-models
+

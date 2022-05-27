@@ -1,0 +1,29 @@
+
+:root {
+	--primary-color: #2196f3;
+	--secondary-color: #f50057;
+	--primary: #2196f3;
+	--secondary: #f50057;
+}
+
+body {
+	font-family: Roboto;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.rotate {
+	animation: rotate 5s infinite linear;
+}
+
+
+.page {
+  padding-top: var(--navbar-height);
+}
